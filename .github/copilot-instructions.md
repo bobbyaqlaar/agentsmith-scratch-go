@@ -1,5 +1,5 @@
 <!-- Auto-generated from templates/agent-rules.yaml — do not edit directly. -->
-# Copilot instructions — go-tenant
+# Copilot instructions — agentsmith-scratch-go
 
 Follow these when suggesting or editing code in this repository. Full reasoning
 for each rule is in `AGENTS.md`; this file is the condensed form Copilot sees on

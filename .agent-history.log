@@ -1,0 +1,5 @@
+# .agent-history.log — append-only record of agent sessions.
+# Read at session start (pillar 5): unresolved MAJOR/CRITICAL entries
+# are things a previous session could not finish, and repeating them
+# is the failure this log exists to prevent.
+# Written by scripts/agent_logger.py; safe to read, do not rewrite.

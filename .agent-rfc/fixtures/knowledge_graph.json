@@ -7,7 +7,7 @@
       "node_type": "CodebaseFile",
       "language": "go",
       "symbols": [],
-      "last_modified": "2026-09-19T18:52:58Z",
+      "last_modified": "2026-09-21T12:13:58Z",
       "id": "main.go"
     },
     {
@@ -16,7 +16,7 @@
       "symbols": [
         "TestSum"
       ],
-      "last_modified": "2026-09-19T18:52:58Z",
+      "last_modified": "2026-09-21T12:13:58Z",
       "id": "calc/calc_test.go"
     },
     {
@@ -25,7 +25,7 @@
       "symbols": [
         "Sum"
       ],
-      "last_modified": "2026-09-19T18:52:58Z",
+      "last_modified": "2026-09-21T12:13:58Z",
       "id": "calc/calc.go"
     },
     {
@@ -36,7 +36,7 @@
         "_parts",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/send_dev_record.py"
     },
     {
@@ -73,14 +73,14 @@
         "_write_results",
         "is_model_gone"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/run-evals.py"
     },
     {
       "node_type": "CodebaseFile",
       "language": "python",
       "symbols": [],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/__init__.py"
     },
     {
@@ -106,7 +106,7 @@
         "__init__",
         "__repr__"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/cost_router.py"
     },
     {
@@ -139,7 +139,7 @@
         "merged",
         "pillar_ids"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_models.py"
     },
     {
@@ -173,7 +173,7 @@
         "enabled",
         "wait"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/_shared.py"
     },
     {
@@ -182,7 +182,7 @@
       "symbols": [
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/verify_judge_route.py"
     },
     {
@@ -208,7 +208,7 @@
         "write_evidence_pack",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/delivery_evidence.py"
     },
     {
@@ -220,7 +220,7 @@
         "measure_ttft_ms",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/verify_ttft.py"
     },
     {
@@ -247,7 +247,7 @@
         "_git_repo",
         "want"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/verify_system.py"
     },
     {
@@ -271,7 +271,7 @@
         "stats",
         "as_json"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/local_knowledge_graph.py"
     },
     {
@@ -297,7 +297,7 @@
         "_command",
         "render_config"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_ides.py"
     },
     {
@@ -311,7 +311,7 @@
         "_generate_local_hf",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/verify_sovereign_endpoint.py"
     },
     {
@@ -324,7 +324,7 @@
         "_entry_id",
         "sync"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/sync-portal-history.py"
     },
     {
@@ -338,7 +338,7 @@
         "_annotate_shadow_result",
         "run_shadow_eval"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/shadow-eval.py"
     },
     {
@@ -379,7 +379,7 @@
         "read",
         "resolve"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_pillars.py"
     },
     {
@@ -393,7 +393,7 @@
         "record_gates_run",
         "last_gates_run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_history.py"
     },
     {
@@ -405,7 +405,7 @@
         "tenant_yaml_path",
         "check_tenant_against_policy"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/delivery_model.py"
     },
     {
@@ -418,7 +418,7 @@
         "_resolve_exit",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/run-security-checks.py"
     },
     {
@@ -448,7 +448,7 @@
         "main",
         "_check_drift"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/generate-ide-config.py"
     },
     {
@@ -471,7 +471,7 @@
         "render_table",
         "swap"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_steps.py"
     },
     {
@@ -485,7 +485,7 @@
         "criteria_digest",
         "judge_case"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/eval_judge.py"
     },
     {
@@ -574,7 +574,7 @@
         "read",
         "checked"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/process_gate.py"
     },
     {
@@ -603,7 +603,7 @@
         "set_attribute",
         "record_exception"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/multi_agent_system.py"
     },
     {
@@ -618,7 +618,7 @@
         "_load_json",
         "_save_json"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/promote-learning.py"
     },
     {
@@ -634,7 +634,7 @@
         "_post",
         "_dispatch"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/notifier.py"
     },
     {
@@ -652,7 +652,7 @@
         "reset_monthly",
         "__init__"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/circuit_breaker.py"
     },
     {
@@ -674,7 +674,7 @@
         "record_exception",
         "start_as_current_span"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/local_agent_stack.py"
     },
     {
@@ -695,7 +695,7 @@
         "resolve_hitl",
         "unresolved_issues"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/agent_logger.py"
     },
     {
@@ -708,7 +708,7 @@
         "_notify_offline",
         "_notify_recovery"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/network_watchdog.py"
     },
     {
@@ -725,7 +725,7 @@
         "_resolve_local_import",
         "run_map"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/map_codebase.py"
     },
     {
@@ -738,7 +738,7 @@
         "changed_files",
         "render_impact"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_kg.py"
     },
     {
@@ -749,7 +749,7 @@
         "find_violations",
         "main"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/check_bare_except.py"
     },
     {
@@ -765,7 +765,7 @@
         "_git_refusal",
         "refusal"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/gate_shell.py"
     },
     {
@@ -786,7 +786,7 @@
         "main",
         "_restore"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/mutation_check.py"
     },
     {
@@ -812,7 +812,7 @@
         "export",
         "shutdown"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/gate_tracing.py"
     },
     {
@@ -825,7 +825,7 @@
         "_fetch_span",
         "sync"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/sync-ui-feedback.py"
     },
     {
@@ -841,7 +841,7 @@
         "_render_security_report_md",
         "write_evidence_pack"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/report.py"
     },
     {
@@ -852,14 +852,14 @@
         "ControlSpec",
         "load_control_registry"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/registry.py"
     },
     {
       "node_type": "CodebaseFile",
       "language": "python",
       "symbols": [],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/__init__.py"
     },
     {
@@ -881,14 +881,14 @@
         "security_fixture",
         "node_suite"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/_shared.py"
     },
     {
       "node_type": "CodebaseFile",
       "language": "python",
       "symbols": [],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/__init__.py"
     },
     {
@@ -899,7 +899,7 @@
         "_violations",
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/sovereign_residency.py"
     },
     {
@@ -908,7 +908,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/sso_revocation.py"
     },
     {
@@ -918,7 +918,7 @@
         "_SmokeModel",
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/structured_output.py"
     },
     {
@@ -940,7 +940,7 @@
         "agency_manifest",
         "gateway_static"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/delegating.py"
     },
     {
@@ -949,7 +949,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:44Z",
       "id": "scripts/security/runners/noop.py"
     },
     {
@@ -958,7 +958,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/pii_precall.py"
     },
     {
@@ -967,7 +967,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/adversarial_eval.py"
     },
     {
@@ -976,7 +976,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/prompt_guard.py"
     },
     {
@@ -985,7 +985,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/pii_postcall.py"
     },
     {
@@ -995,7 +995,7 @@
         "_registered_tool_names",
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/tool_allowlist.py"
     },
     {
@@ -1004,7 +1004,7 @@
       "symbols": [
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/moderation_hook.py"
     },
     {
@@ -1015,7 +1015,7 @@
         "_template_path",
         "run"
       ],
-      "last_modified": "2026-09-19T18:53:35Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "scripts/security/runners/risk_register.py"
     },
     {
@@ -1076,7 +1076,7 @@
         "_hook",
         "_post_with_retry"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/llm_gateway.py"
     },
     {
@@ -1087,7 +1087,7 @@
         "temporal_address",
         "connect"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/temporal_client.py"
     },
     {
@@ -1103,7 +1103,7 @@
         "parity_violation",
         "pair_score_spread"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/judging.py"
     },
     {
@@ -1124,7 +1124,7 @@
         "__exit__",
         "__getattr__"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/pg_pool.py"
     },
     {
@@ -1136,7 +1136,7 @@
         "warn_once",
         "warn_degraded_default"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/environment.py"
     },
     {
@@ -1156,7 +1156,7 @@
         "resolve_choice",
         "resolve"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/config.py"
     },
     {
@@ -1174,7 +1174,7 @@
         "_one",
         "_load"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/embeddings.py"
     },
     {
@@ -1197,7 +1197,7 @@
         "_release_claim",
         "discard"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/dead_letter.py"
     },
     {
@@ -1209,7 +1209,7 @@
         "metric_exporter",
         "_exporter"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/otlp.py"
     },
     {
@@ -1228,7 +1228,7 @@
         "purge_expired",
         "_connect"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/idempotency.py"
     },
     {
@@ -1254,7 +1254,7 @@
         "is_recording",
         "on_start"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/tracing.py"
     },
     {
@@ -1269,7 +1269,7 @@
         "warn_if_declared_version_differs",
         "_reset_cache"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/version.py"
     },
     {
@@ -1282,7 +1282,7 @@
         "_extract_json_text",
         "parse_llm_json"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/structured_output.py"
     },
     {
@@ -1306,7 +1306,7 @@
         "degrade_tiers",
         "__getattr__"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/testing.py"
     },
     {
@@ -1323,7 +1323,7 @@
         "configure_metrics",
         "_reset_cache"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/metrics.py"
     },
     {
@@ -1335,7 +1335,7 @@
         "system_fingerprint",
         "prompt_attributes"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/prompt_identity.py"
     },
     {
@@ -1344,7 +1344,7 @@
       "symbols": [
         "ascii_digits"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/pii_patterns.py"
     },
     {
@@ -1366,7 +1366,7 @@
         "apply_output_moderation",
         "__init__"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/moderation.py"
     },
     {
@@ -1398,7 +1398,7 @@
         "parse_cloud_response",
         "_get_access_token"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/provider_dispatch.py"
     },
     {
@@ -1415,7 +1415,7 @@
         "log_message",
         "_connect"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/replay_webhook_server.py"
     },
     {
@@ -1439,7 +1439,7 @@
         "__init__",
         "blocked"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/prompt_guard.py"
     },
     {
@@ -1469,7 +1469,7 @@
         "fate",
         "put"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/adopt.py"
     },
     {
@@ -1478,7 +1478,7 @@
       "symbols": [
         "luhn_valid"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/luhn.py"
     },
     {
@@ -1512,7 +1512,7 @@
         "_truncate",
         "configured"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/trace_redactor.py"
     },
     {
@@ -1523,7 +1523,7 @@
         "handler",
         "_signal"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/temporal_replay.py"
     },
     {
@@ -1549,7 +1549,7 @@
         "invoke",
         "decorator"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/tool_registry.py"
     },
     {
@@ -1560,7 +1560,7 @@
         "propose_corrected_payload",
         "run_self_correction_loop"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/self_correction.py"
     },
     {
@@ -1583,7 +1583,7 @@
         "_ensure_schema",
         "_query"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/vector_store.py"
     },
     {
@@ -1597,7 +1597,7 @@
         "current_identity",
         "current_tenant_id"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/tenancy.py"
     },
     {
@@ -1620,7 +1620,7 @@
         "render_scaffold_design",
         "session_start_line"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/architectures.py"
     },
     {
@@ -1636,7 +1636,7 @@
         "scrub_messages",
         "_claim"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/input_guardrail.py"
     },
     {
@@ -1648,7 +1648,7 @@
         "_start_temporal_worker",
         "_start_celery_worker"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/worker.py"
     },
     {
@@ -1668,7 +1668,7 @@
         "_evict",
         "_message_tokens"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/conversation_memory.py"
     },
     {
@@ -1720,7 +1720,7 @@
         "main",
         "put"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/cli.py"
     },
     {
@@ -1729,14 +1729,14 @@
       "symbols": [
         "security_artefact_path"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/security_paths.py"
     },
     {
       "node_type": "CodebaseFile",
       "language": "python",
       "symbols": [],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/workflows/__init__.py"
     },
     {
@@ -1761,7 +1761,7 @@
         "human_fix_payload",
         "signal"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/workflows/base_workflow.py"
     },
     {
@@ -1781,7 +1781,7 @@
         "gates_run",
         "config"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/governance.py"
     },
     {
@@ -1797,14 +1797,14 @@
         "BypassDecision",
         "bypass_decision"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/policy.py"
     },
     {
       "node_type": "CodebaseFile",
       "language": "python",
       "symbols": [],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/__init__.py"
     },
     {
@@ -1823,7 +1823,7 @@
         "clear_phoenix_endpoint",
         "find_script"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/state.py"
     },
     {
@@ -1859,7 +1859,7 @@
         "remove_profile_blocks",
         "uninstall"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/ops.py"
     },
     {
@@ -1874,7 +1874,7 @@
         "upgrade",
         "git"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/machine/upgrade.py"
     },
     {
@@ -1908,7 +1908,7 @@
         "_install",
         "_Info"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/test/test_hitl_gate.py"
     },
     {
@@ -1923,7 +1923,7 @@
         "test_a_reset_or_retried_run_does_not_collide_with_the_previous_one",
         "test_each_attempt_and_each_gate_files_separately"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/test/test_dead_letter.py"
     },
     {
@@ -1935,7 +1935,7 @@
         "identity_processor",
         "pytest_configure"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/test/conftest.py"
     },
     {
@@ -1960,7 +1960,7 @@
         "fake_post",
         "fake_post_401"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/test/test_llm_gateway_budget.py"
     },
     {
@@ -1982,7 +1982,7 @@
         "activity",
         "R"
       ],
-      "last_modified": "2026-09-19T18:53:36Z",
+      "last_modified": "2026-09-21T12:14:45Z",
       "id": "runtime/test/test_self_correction.py"
     },
     {
@@ -1990,7 +1990,7 @@
       "title": "REQUIREMENTS & DESIGN",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 1,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:1"
     },
     {
@@ -1998,7 +1998,7 @@
       "title": "BUILD ARCHITECTURE (Ponytail Rules)",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 2,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:2"
     },
     {
@@ -2006,7 +2006,7 @@
       "title": "TRACING & EVALUATIONS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 3,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:3"
     },
     {
@@ -2014,7 +2014,7 @@
       "title": "TESTING GUARDRAILS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 4,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:4"
     },
     {
@@ -2022,7 +2022,7 @@
       "title": "OPERATIONS & SELF-IMPROVEMENT",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 5,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:5"
     },
     {
@@ -2030,7 +2030,7 @@
       "title": "INTERFACE CONSTRAINTS (Caveman Compression)",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 6,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:6"
     },
     {
@@ -2038,7 +2038,7 @@
       "title": "STACK-SPECIFIC RULES",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 7,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:7"
     },
     {
@@ -2046,7 +2046,7 @@
       "title": "OBSERVABILITY WIRE",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 8,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:8"
     },
     {
@@ -2054,7 +2054,7 @@
       "title": "MULTI-AGENT ORCHESTRATION",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 9,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:9"
     },
     {
@@ -2062,7 +2062,7 @@
       "title": "COST-OPTIMISATION ROUTING",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 10,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:10"
     },
     {
@@ -2070,7 +2070,7 @@
       "title": "UNTRUSTED CONTENT",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 11,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:11"
     },
     {
@@ -2078,7 +2078,7 @@
       "title": "SECRETS AND CREDENTIALS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 12,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:12"
     },
     {
@@ -2086,7 +2086,7 @@
       "title": "GATE INTEGRITY",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 13,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:13"
     },
     {
@@ -2094,7 +2094,7 @@
       "title": "FIXTURE AND BASELINE DRIFT",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 14,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:14"
     },
     {
@@ -2102,7 +2102,7 @@
       "title": "AMBIGUOUS SIGNALS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 15,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:15"
     },
     {
@@ -2110,7 +2110,7 @@
       "title": "RECOVERY PATHS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 16,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:16"
     },
     {
@@ -2118,7 +2118,7 @@
       "title": "GO ADDENDUM",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 17,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:17"
     },
     {
@@ -2126,7 +2126,7 @@
       "title": "DESIGN & VALIDATION PLAYBOOKS",
       "source_file": "/home/runner/work/AgentSmith/AgentSmith/tenant/.cursorrules",
       "pillar": 18,
-      "created_at": "2026-09-19T18:53:36Z",
+      "created_at": "2026-09-21T12:14:46Z",
       "id": "cursorrules:pillar:18"
     }
   ],

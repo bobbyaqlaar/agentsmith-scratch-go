@@ -1,0 +1,114 @@
+name: "CI: Go Guardrails"
+
+on:
+  pull_request:
+    branches: ["main", "develop"]
+  push:
+    # develop too: cd-staging.yml deploys only after THIS workflow succeeds on
+    # a push to develop, so without it staging never deploys.
+    branches: ["main", "develop"]
+
+concurrency:
+  group: ci-go-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  guardrails:
+    name: "Guardrails — Go"
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The gate provider, for the graph check below — installed by its own CI
+      # setup step at the release this repository pins. First, before this job
+      # sets up its own toolchain: the provider runs on the interpreter the
+      # action installs, and the steps after keep the environment they set up.
+      - uses: "bobbyaqlaar/AgentSmith/.github/actions/setup-agentsmith@6fafbd03a0871835f2a24b7b7b580066f2335545"
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache: true
+
+      - name: Download modules
+        run: go mod download
+
+      - name: Verify modules
+        # agentsmith:gate
+        run: go mod verify
+
+      - name: Format check
+        # agentsmith:gate
+        run: |
+          if [ -n "$(gofmt -l .)" ]; then
+            echo "❌ gofmt violations:"
+            gofmt -l .
+            exit 1
+          fi
+
+      - name: Vet
+        # agentsmith:gate
+        run: go vet ./...
+
+      - name: "Knowledge Graph is current (Pillar 2)"
+        # agentsmith:gate
+        # The committed graph against what the code maps to now, asked of the
+        # declared gate provider (contract/gate/v3, `kg check`). A repository
+        # with no graph yet passes with a warning; a stale one fails — commit
+        # what `agentsmith gate kg build` writes.
+        run: bash .githooks/process-gate kg check
+
+      - name: "RFC gate (Pillar 1)"
+        # agentsmith:gate
+        run: |
+          if [ ! -f ".agenticframework/org-policy.yaml" ]; then
+            echo "ℹ️  Developer mode — RFC gate skipped."
+            exit 0
+          fi
+          RFC_COUNT=$(find .agent-rfc -maxdepth 1 -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+          if [ "${RFC_COUNT:-0}" -eq 0 ]; then
+            echo "❌ Enterprise policy: at least one RFC required under .agent-rfc/ before merging."
+            exit 1
+          fi
+          echo "✅ RFC gate: ${RFC_COUNT} RFC(s) found."
+
+      - name: Test (with race detector)
+        # agentsmith:gate
+        run: go test -v -race -coverprofile=coverage.out ./...
+
+      - name: Upload coverage
+        uses: codecov/codecov-action@v4
+        with:
+          file: ./coverage.out
+          fail_ci_if_error: false
+
+  eval-scorecard:
+    name: "Eval scorecard"
+    uses: ./.github/workflows/eval-scorecard.yml
+    secrets: inherit
+
+  eval-fairness:
+    name: "Fairness eval (opt-in)"
+    uses: ./.github/workflows/eval-fairness.yml
+    secrets: inherit
+    with:
+      fairness_mode: warn
+
+  eval-hallucination:
+    name: "Hallucination eval (hard-fail)"
+    uses: ./.github/workflows/eval-hallucination.yml
+    secrets: inherit
+
+  # The same gate ci-python-fastapi.yml runs. The security port's controls are
+  # not Python-specific — it grades THIS repo's .agent-rfc/security/ pack, its
+  # declared posture and its telemetry wire — so a Go or TS tenant is graded
+  # too. A tenant still carrying the shipped placeholder pack fails here until
+  # it declares its own risks and high-impact actions.
+  security-checks:
+    name: "Security (declared provider)"
+    uses: ./.github/workflows/eval-security.yml
+    secrets: inherit
